@@ -10,4 +10,89 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.guilh.mygrades2.CadastroActivity">
 
+    <TextView
+        android:text="@string/txtTitleCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignParentStart="true"
+        android:id="@+id/txtDisc"
+        android:maxLines="1"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:text="@string/nota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDisc"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/txtP1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="14dp"
+        android:id="@+id/valueP1"
+        android:layout_alignBaseline="@+id/txtP1"
+        android:layout_alignBottom="@+id/txtP1"
+        android:layout_toEndOf="@+id/txtP1"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:text="@string/nota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtP2"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtP1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/valueP2"
+        android:layout_alignBaseline="@+id/txtP2"
+        android:layout_alignBottom="@+id/txtP2"
+        android:layout_toEndOf="@+id/txtP2"
+        android:layout_alignStart="@+id/valueP1"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:text="@string/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConfirm"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button"
+        android:onClick="save"/>
+
+    <TextView
+        android:text="@string/att"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="20sp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/valueP2"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
