@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyGrades2</string>
+    <string name="txtBtnDisc">Incluir/Alterar Disciplina</string>
+    <string name="txtTitleCadastro">Nome da disciplina:</string>
+    <string name="nota1">P1:</string>
+    <string name="nota2">P2:</string>
+    <string name="confirm">Incluir/Alterar</string>
+    <string name="att">Obs.: Se for inserido um nome igual a de uma disciplina já existente os valores serão substituídos.</string>
+    <string name="warning">Por favor, preencha todos os campos</string>
+    <string name="delete">Excluir</string>
+</resources>
