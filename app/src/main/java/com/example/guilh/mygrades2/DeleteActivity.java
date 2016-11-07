@@ -57,4 +57,10 @@ public class DeleteActivity extends AppCompatActivity {
         context.deleteFile(filename);
         finish();
     }
+
+    public void initAltera(View view){
+        Intent i = new Intent(getApplicationContext(),AlteraActivity.class);
+        i.putExtra("filename",filename);
+        startActivity(i);
+    }
 }
